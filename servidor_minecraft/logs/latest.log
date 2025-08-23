@@ -1,186 +1,104 @@
-[23Aug2025 22:31:55.944] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
-[23Aug2025 22:31:55.948] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[23Aug2025 22:31:57.303] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servel/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[23Aug2025 22:31:57.776] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
-[23Aug2025 22:31:57.780] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[23Aug2025 22:31:57.781] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[23Aug2025 22:31:57.783] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[23Aug2025 22:31:58.021] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[23Aug2025 22:31:59.932] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
-[23Aug2025 22:31:59.940] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[23Aug2025 22:32:00.047] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[23Aug2025 22:32:00.393] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 0 override(s) found
-[23Aug2025 22:32:00.394] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[23Aug2025 22:32:00.409] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[23Aug2025 22:32:01.239] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[23Aug2025 22:32:01.918] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (12.59 s after launch)
-[23Aug2025 22:32:02.180] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[23Aug2025 22:32:02.181] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[23Aug2025 22:32:03.905] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1983 milliseconds
-[23Aug2025 22:32:06.077] [modloading-worker-0/INFO] [dynamiclightsreforged/]: [LambDynLights] Initializing Dynamic Lights Reforged...
-[23Aug2025 22:32:06.121] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
-[23Aug2025 22:32:06.121] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
-[23Aug2025 22:32:06.566] [modloading-worker-0/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
-[23Aug2025 22:32:06.820] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[23Aug2025 22:32:06.822] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[23Aug2025 22:32:06.847] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[23Aug2025 22:32:06.847] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[23Aug2025 22:32:06.980] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[23Aug2025 22:32:06.998] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[23Aug2025 22:32:07.006] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[23Aug2025 22:32:07.100] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[23Aug2025 22:32:07.174] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[23Aug2025 22:32:07.286] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[23Aug2025 22:32:07.588] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/servel/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
-[23Aug2025 22:32:07.588] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/servel/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
-[23Aug2025 22:32:07.589] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
-[23Aug2025 22:32:09.249] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[23Aug2025 22:32:09.522] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
-[23Aug2025 22:32:09.609] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[23Aug2025 22:32:09.609] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[23Aug2025 22:32:09.610] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[23Aug2025 22:32:09.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[23Aug2025 22:32:09.722] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[23Aug2025 22:32:09.745] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[23Aug2025 22:32:09.809] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23Aug2025 22:32:09.810] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[23Aug2025 22:32:09.810] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23Aug2025 22:32:09.810] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[23Aug2025 22:32:09.866] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
-[23Aug2025 22:32:09.879] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading server info!
-[23Aug2025 22:32:09.952] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading player configs...
-[23Aug2025 22:32:09.987] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded player configs!
-[23Aug2025 22:32:09.988] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading parties...
-[23Aug2025 22:32:09.989] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded parties!
-[23Aug2025 22:32:09.990] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Fixing party inconsistencies...
-[23Aug2025 22:32:10.043] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: default
-[23Aug2025 22:32:10.044] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
-[23Aug2025 22:32:10.044] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[23Aug2025 22:32:10.235] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[23Aug2025 22:32:10.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[23Aug2025 22:32:11.047] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Aug2025 22:32:11.047] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[23Aug2025 22:32:11.642] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[23Aug2025 22:32:12.097] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[23Aug2025 22:32:12.452] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[23Aug2025 22:32:12.969] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
-[23Aug2025 22:32:13.146] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[23Aug2025 22:32:13.446] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[23Aug2025 22:32:13.942] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[23Aug2025 22:32:14.170] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3729 ms
-[23Aug2025 22:32:14.171] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.351s)! For help, type "help"
-[23Aug2025 22:32:14.184] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[23Aug2025 22:32:14.187] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
-[23Aug2025 22:32:14.218] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 31ms
-[23Aug2025 22:32:14.218] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "ftb_ranks" isn't registered!
-[23Aug2025 22:32:14.218] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: permission_api
-[23Aug2025 22:32:14.219] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured primary party system "ftb_teams" isn't registered!
-[23Aug2025 22:32:14.219] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
-[23Aug2025 22:32:14.220] [Server thread/WARN] [ModernFix/]: Dedicated server took 24.89 seconds to load
-[23Aug2025 22:32:28.567] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5152ea84
-[23Aug2025 22:32:28.578] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MidNight1205[/127.249.175.223:39087] logged in with entity id 119 at (509.51663958455464, 60.89319798946076, -73.77674550395632)
-[23Aug2025 22:32:28.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MidNight1205 joined the game
-[23Aug2025 22:32:28.666] [Server thread/INFO] [Jade/]: Syncing config to MidNight1205 (740f1231-3574-3da3-b2f1-ac7299218352)
-[23Aug2025 22:32:28.672] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 740f1231-3574-3da3-b2f1-ac7299218352
-[23Aug2025 22:32:29.862] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@19b4f65e
-[23Aug2025 22:32:29.868] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Maxthelinkcanal[/127.225.59.238:37409] logged in with entity id 282 at (504.9021680082494, 58.3381969827858, -75.62675474258604)
-[23Aug2025 22:32:29.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maxthelinkcanal joined the game
-[23Aug2025 22:32:29.922] [Server thread/INFO] [Jade/]: Syncing config to Maxthelinkcanal (b0610ebf-b387-3c19-a4f9-f9a7d4f0a249)
-[23Aug2025 22:32:29.923] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for b0610ebf-b387-3c19-a4f9-f9a7d4f0a249
-[23Aug2025 22:32:58.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Teleported Maxthelinkcanal to 504.500000, 57.500000, -75.500000]
-[23Aug2025 22:33:16.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> ja tirei
-[23Aug2025 22:33:30.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> 2 coraçoes
-[23Aug2025 22:33:32.948] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> socorro
-[23Aug2025 22:33:37.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MidNight1205 was slain by Maxthelinkcanal
-[23Aug2025 22:33:43.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Set own game mode to Creative Mode]
-[23Aug2025 22:33:45.686] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@442b4c48
-[23Aug2025 22:33:45.690] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EduKzYT[/127.136.95.82:44737] logged in with entity id 941 at (503.3843642315063, 69.6521570258155, -73.79820801729782)
-[23Aug2025 22:33:45.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EduKzYT joined the game
-[23Aug2025 22:33:45.739] [Server thread/INFO] [Jade/]: Syncing config to EduKzYT (b91aa904-269e-3448-92ec-77421b0b7fe5)
-[23Aug2025 22:33:45.740] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for b91aa904-269e-3448-92ec-77421b0b7fe5
-[23Aug2025 22:33:53.257] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> 600 metros
-[23Aug2025 22:33:57.861] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Teleported MidNight1205 to EduKzYT]
-[23Aug2025 22:33:59.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> nn ando nem na vida real
-[23Aug2025 22:34:17.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Set own game mode to Survival Mode]
-[23Aug2025 22:34:26.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Teleported Maxthelinkcanal to -205.500000, 66.500000, 465.500000]
-[23Aug2025 22:34:34.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> como é fdp
-[23Aug2025 22:35:29.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> faz um mercado
-[23Aug2025 22:35:46.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> acho q fiquei surda
-[23Aug2025 22:36:19.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Set the time to 1000]
-[23Aug2025 22:36:35.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> EU TAVA TE AJUDANDO
-[23Aug2025 22:36:43.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> FI DE CORNO
-[23Aug2025 22:37:39.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> hj eu nn durmo
-[23Aug2025 22:38:01.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> qm disse
-[23Aug2025 22:38:18.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> ele nn me mato
-[23Aug2025 22:38:34.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> mas q eu cuspi energetico no teclado por causa do susto
-[23Aug2025 22:38:52.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> nn faz efeito
-[23Aug2025 22:38:58.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> como
-[23Aug2025 22:40:03.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> faz borda
-[23Aug2025 22:40:05.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> pra fica bonito
-[23Aug2025 22:40:16.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> xo te ajudar
-[23Aug2025 22:40:37.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> é so pra fazer
-[23Aug2025 22:40:47.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> pra fala q vc fez algo lindo
-[23Aug2025 22:40:55.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> NAO
-[23Aug2025 22:41:06.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> nn
-[23Aug2025 22:42:25.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> da um pouco desse bloco
-[23Aug2025 22:43:19.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Teleported Maxthelinkcanal to -205.500000, 66.500000, 465.500000]
-[23Aug2025 22:43:32.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> assovia nn
-[23Aug2025 22:48:06.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> eu to calada com isso
-[23Aug2025 22:48:10.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> so vou ignorar
-[23Aug2025 22:48:16.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maxthelinkcanal has made the advancement [Sweet Dreams]
-[23Aug2025 22:48:22.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Set the time to 1000]
-[23Aug2025 22:48:31.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> pode me da comida
-[23Aug2025 22:48:43.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> nn consigo correr
-[23Aug2025 22:48:54.233] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MidNight1205 lost connection: Disconnected
-[23Aug2025 22:48:54.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MidNight1205 left the game
-[23Aug2025 22:48:54.234] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 740f1231-3574-3da3-b2f1-ac7299218352
-[23Aug2025 22:48:59.533] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6d152ba7
-[23Aug2025 22:48:59.536] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MidNight1205[/127.249.175.223:46249] logged in with entity id 8096 at (505.10596101717914, 72.0, -71.70843367302776)
-[23Aug2025 22:48:59.546] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MidNight1205 joined the game
-[23Aug2025 22:48:59.589] [Server thread/INFO] [Jade/]: Syncing config to MidNight1205 (740f1231-3574-3da3-b2f1-ac7299218352)
-[23Aug2025 22:48:59.590] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 740f1231-3574-3da3-b2f1-ac7299218352
-[23Aug2025 22:49:34.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> pq esse assovio satanico
-[23Aug2025 22:49:51.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> ontem?
-[23Aug2025 22:50:12.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Gave 30 [Steak] to MidNight1205]
-[23Aug2025 22:50:20.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> chegou
-[23Aug2025 22:50:44.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> é no debito
-[23Aug2025 22:50:55.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> 6 centavos aceita
-[23Aug2025 22:51:05.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> pera
-[23Aug2025 22:51:10.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> vou ate abrir o nubank
-[23Aug2025 22:51:12.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> so pra ver
-[23Aug2025 22:51:26.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> da pro eduardo
-[23Aug2025 22:51:39.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> nn conhece ne
-[23Aug2025 22:51:50.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> o seu ta guardado
-[23Aug2025 22:52:48.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> eu to ficando com medo dessa porra
-[23Aug2025 22:52:55.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> eu to olhando pra tras
-[23Aug2025 22:53:04.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> na vida real achando q é aq em casa
-[23Aug2025 22:53:35.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Showing new title for EduKzYT]
-[23Aug2025 22:53:46.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maxthelinkcanal was slain by Skinwalker
-[23Aug2025 22:53:48.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Guilt> You will pay.
-[23Aug2025 22:54:18.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> ue
-[23Aug2025 22:54:20.567] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> tem nada
-[23Aug2025 22:54:27.341] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Gave 1 [Command Block] to Maxthelinkcanal]
-[23Aug2025 22:54:34.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Set own game mode to Creative Mode]
-[23Aug2025 22:54:37.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> oq é bloco de comando
-[23Aug2025 22:54:44.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> oxi
-[23Aug2025 22:55:10.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> me da uma placa
-[23Aug2025 22:55:52.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Set own game mode to Survival Mode]
-[23Aug2025 22:56:07.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> vem ca eduardo
-[23Aug2025 22:56:55.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <EduKzYT> ss
-[23Aug2025 22:57:08.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Set own game mode to Creative Mode]
-[23Aug2025 22:57:17.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> meu mouse ta descarregando
-[23Aug2025 22:57:23.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> vou pega o cabo
-[23Aug2025 22:57:47.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> quase derrubei o pc todo
-[23Aug2025 22:58:27.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> coloca uma cama
-[23Aug2025 22:58:42.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [EduKzYT: Set the time to 0]
-[23Aug2025 22:59:38.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> FDP
-[23Aug2025 22:59:57.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MidNight1205 was slain by Zombie
-[23Aug2025 23:00:04.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> odeio the walking dead
-[23Aug2025 23:00:37.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> vai coloca zumbi na sua casa
-[23Aug2025 23:00:38.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [EduKzYT: Teleported MidNight1205 to EduKzYT]
-[23Aug2025 23:00:56.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MidNight1205 was slain by Zombie
-[23Aug2025 23:00:57.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Guilt> I know you heard me.
-[23Aug2025 23:01:01.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EduKzYT has made the advancement [Monster Hunter]
-[23Aug2025 23:01:03.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> PQ TEM 3
-[23Aug2025 23:01:11.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> E UM MINI
-[23Aug2025 23:01:35.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [EduKzYT: Teleported MidNight1205 to EduKzYT]
+[23Aug2025 23:12:13.840] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[23Aug2025 23:12:13.844] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[23Aug2025 23:12:14.854] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servel/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[23Aug2025 23:12:15.325] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[23Aug2025 23:12:15.328] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[23Aug2025 23:12:15.330] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[23Aug2025 23:12:15.331] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[23Aug2025 23:12:15.552] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[23Aug2025 23:12:17.352] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
+[23Aug2025 23:12:17.361] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[23Aug2025 23:12:17.411] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[23Aug2025 23:12:17.914] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 0 override(s) found
+[23Aug2025 23:12:17.915] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[23Aug2025 23:12:17.928] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[23Aug2025 23:12:18.833] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[23Aug2025 23:12:19.516] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (11.75 s after launch)
+[23Aug2025 23:12:19.814] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[23Aug2025 23:12:19.815] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[23Aug2025 23:12:21.469] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1949 milliseconds
+[23Aug2025 23:12:23.716] [modloading-worker-0/INFO] [dynamiclightsreforged/]: [LambDynLights] Initializing Dynamic Lights Reforged...
+[23Aug2025 23:12:23.771] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[23Aug2025 23:12:23.771] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[23Aug2025 23:12:24.203] [modloading-worker-0/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
+[23Aug2025 23:12:24.509] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[23Aug2025 23:12:24.511] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[23Aug2025 23:12:24.534] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[23Aug2025 23:12:24.534] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[23Aug2025 23:12:24.675] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[23Aug2025 23:12:24.701] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[23Aug2025 23:12:24.711] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Aug2025 23:12:24.713] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[23Aug2025 23:12:24.832] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[23Aug2025 23:12:24.883] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Aug2025 23:12:24.998] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[23Aug2025 23:12:25.111] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
+[23Aug2025 23:12:25.235] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/servel/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
+[23Aug2025 23:12:25.235] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/servel/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
+[23Aug2025 23:12:26.855] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[23Aug2025 23:12:27.166] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[23Aug2025 23:12:27.266] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[23Aug2025 23:12:27.266] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[23Aug2025 23:12:27.266] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[23Aug2025 23:12:27.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Aug2025 23:12:27.356] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[23Aug2025 23:12:27.378] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[23Aug2025 23:12:27.448] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23Aug2025 23:12:27.448] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[23Aug2025 23:12:27.448] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23Aug2025 23:12:27.449] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[23Aug2025 23:12:27.587] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
+[23Aug2025 23:12:27.604] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading server info!
+[23Aug2025 23:12:27.682] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading player configs...
+[23Aug2025 23:12:27.722] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded player configs!
+[23Aug2025 23:12:27.722] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading parties...
+[23Aug2025 23:12:27.723] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded parties!
+[23Aug2025 23:12:27.724] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Fixing party inconsistencies...
+[23Aug2025 23:12:27.783] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: default
+[23Aug2025 23:12:27.785] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
+[23Aug2025 23:12:27.785] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[23Aug2025 23:12:27.843] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Aug2025 23:12:27.862] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Aug2025 23:12:28.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Aug2025 23:12:28.622] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Aug2025 23:12:30.126] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[23Aug2025 23:12:30.154] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Aug2025 23:12:30.154] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Aug2025 23:12:30.154] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Aug2025 23:12:30.155] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Aug2025 23:12:30.219] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[23Aug2025 23:12:30.624] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2415 ms
+[23Aug2025 23:12:30.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.164s)! For help, type "help"
+[23Aug2025 23:12:30.639] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Aug2025 23:12:30.643] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
+[23Aug2025 23:12:30.645] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 2ms
+[23Aug2025 23:12:30.646] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "ftb_ranks" isn't registered!
+[23Aug2025 23:12:30.646] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: permission_api
+[23Aug2025 23:12:30.646] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured primary party system "ftb_teams" isn't registered!
+[23Aug2025 23:12:30.646] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
+[23Aug2025 23:12:30.648] [Server thread/WARN] [ModernFix/]: Dedicated server took 22.877 seconds to load
+[23Aug2025 23:12:35.762] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5ed9c01
+[23Aug2025 23:12:35.776] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Maxthelinkcanal[/127.225.59.238:58481] logged in with entity id 126 at (-209.70241933380993, 65.0, 467.92829490687654)
+[23Aug2025 23:12:35.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maxthelinkcanal joined the game
+[23Aug2025 23:12:35.872] [Server thread/INFO] [Jade/]: Syncing config to Maxthelinkcanal (b0610ebf-b387-3c19-a4f9-f9a7d4f0a249)
+[23Aug2025 23:12:35.881] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for b0610ebf-b387-3c19-a4f9-f9a7d4f0a249
+[23Aug2025 23:12:45.762] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@75bf8db7
+[23Aug2025 23:12:45.765] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MidNight1205[/127.249.175.223:48485] logged in with entity id 408 at (495.466139655576, 73.5, -48.73462706856952)
+[23Aug2025 23:12:45.783] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MidNight1205 joined the game
+[23Aug2025 23:12:45.788] [Server thread/INFO] [Jade/]: Syncing config to MidNight1205 (740f1231-3574-3da3-b2f1-ac7299218352)
+[23Aug2025 23:12:45.789] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 740f1231-3574-3da3-b2f1-ac7299218352
+[23Aug2025 23:12:54.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> oxi
+[23Aug2025 23:13:00.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Teleported Maxthelinkcanal to MidNight1205]
+[23Aug2025 23:13:09.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MidNight1205: Set own game mode to Creative Mode]
+[23Aug2025 23:13:48.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Set the weather to clear]
+[23Aug2025 23:14:16.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Teleported Maxthelinkcanal to -205.500000, 66.500000, 465.500000]
+[23Aug2025 23:15:54.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Maxthelinkcanal: Set the time to 1000]
+[23Aug2025 23:16:06.961] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Maxthelinkcanal lost connection: Disconnected
+[23Aug2025 23:16:06.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maxthelinkcanal left the game
+[23Aug2025 23:16:06.962] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for b0610ebf-b387-3c19-a4f9-f9a7d4f0a249
+[23Aug2025 23:18:01.211] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2792bbc2
+[23Aug2025 23:18:01.217] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: EduKzYT[/127.136.95.82:57663] logged in with entity id 2127 at (495.3360454825777, 71.57651762397963, -34.398940490953855)
+[23Aug2025 23:18:01.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EduKzYT joined the game
+[23Aug2025 23:18:01.276] [Server thread/INFO] [Jade/]: Syncing config to EduKzYT (b91aa904-269e-3448-92ec-77421b0b7fe5)
+[23Aug2025 23:18:01.276] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for b91aa904-269e-3448-92ec-77421b0b7fe5
+[23Aug2025 23:18:36.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> a mds
