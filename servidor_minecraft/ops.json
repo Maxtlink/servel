@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "uuid": "740f1231-3574-3da3-b2f1-ac7299218352",
+    "name": "MidNight1205",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b0610ebf-b387-3c19-a4f9-f9a7d4f0a249",
+    "name": "Maxthelinkcanal",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b91aa904-269e-3448-92ec-77421b0b7fe5",
+    "name": "EduKzYT",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
