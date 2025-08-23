@@ -1670,3 +1670,23 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [23Aug2025 23:31:09.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> amor
 [23Aug2025 23:31:12.135] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> olha isso aq
 [23Aug2025 23:31:31.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MidNight1205 has made the advancement [Monster Hunter]
+[23Aug2025 23:32:27.699] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving parties...
+[23Aug2025 23:32:27.699] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving server info!
+[23Aug2025 23:32:30.619] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23Aug2025 23:32:30.623] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23Aug2025 23:33:23.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> to entendo nada
+[23Aug2025 23:35:47.849] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving claims!
+[23Aug2025 23:37:30.623] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23Aug2025 23:37:30.627] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[23Aug2025 23:38:44.756] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EduKzYT lost connection: Disconnected
+[23Aug2025 23:38:44.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EduKzYT left the game
+[23Aug2025 23:38:44.757] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for b91aa904-269e-3448-92ec-77421b0b7fe5
+[23Aug2025 23:39:07.749] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving player configs...
+[23Aug2025 23:40:04.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> voltei
+[23Aug2025 23:40:08.356] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MidNight1205 lost connection: Disconnected
+[23Aug2025 23:40:08.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MidNight1205 left the game
+[23Aug2025 23:40:08.357] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 740f1231-3574-3da3-b2f1-ac7299218352
+[23Aug2025 23:42:27.750] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving parties...
+[23Aug2025 23:42:27.750] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving server info!
+[23Aug2025 23:42:30.605] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[23Aug2025 23:42:30.608] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
