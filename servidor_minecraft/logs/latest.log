@@ -170,3 +170,16 @@
 [25Aug2025 19:46:53.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ip<--[HERE]
 [25Aug2025 19:46:55.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [25Aug2025 19:46:55.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ip<--[HERE]
+[25Aug2025 19:49:47.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[25Aug2025 19:49:47.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Aug2025 19:49:47.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Aug2025 19:49:47.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Aug2025 19:49:48.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[25Aug2025 19:49:48.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[25Aug2025 19:49:48.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[25Aug2025 19:49:48.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[25Aug2025 19:49:48.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Aug2025 19:49:48.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Aug2025 19:49:48.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[25Aug2025 19:49:48.365] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopping IO worker...
+[25Aug2025 19:49:48.371] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopped IO worker!
