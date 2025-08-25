@@ -1,185 +1,88 @@
-[25Aug2025 19:37:53.598] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
-[25Aug2025 19:37:53.601] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
-[25Aug2025 19:37:54.061] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servel/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
-[25Aug2025 19:37:54.418] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
-[25Aug2025 19:37:54.420] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[25Aug2025 19:37:54.421] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[25Aug2025 19:37:54.423] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
-[25Aug2025 19:37:54.591] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[25Aug2025 19:37:56.396] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
-[25Aug2025 19:37:56.405] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[25Aug2025 19:37:56.476] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[25Aug2025 19:37:56.759] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 0 override(s) found
-[25Aug2025 19:37:56.761] [main/INFO] [ModernFix/]: Applying Nashorn fix
-[25Aug2025 19:37:56.790] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
-[25Aug2025 19:37:57.415] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[25Aug2025 19:37:57.949] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (6.912 s after launch)
-[25Aug2025 19:37:58.121] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[25Aug2025 19:37:58.122] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
-[25Aug2025 19:37:59.741] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1787 milliseconds
-[25Aug2025 19:38:02.356] [modloading-worker-0/INFO] [dynamiclightsreforged/]: [LambDynLights] Initializing Dynamic Lights Reforged...
-[25Aug2025 19:38:02.436] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
-[25Aug2025 19:38:02.436] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
-[25Aug2025 19:38:02.907] [modloading-worker-0/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
-[25Aug2025 19:38:03.116] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[25Aug2025 19:38:03.118] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[25Aug2025 19:38:03.138] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[25Aug2025 19:38:03.139] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[25Aug2025 19:38:03.149] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[25Aug2025 19:38:03.278] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[25Aug2025 19:38:03.296] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[25Aug2025 19:38:03.302] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[25Aug2025 19:38:03.484] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[25Aug2025 19:38:03.608] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
-[25Aug2025 19:38:03.917] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/servel/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
-[25Aug2025 19:38:03.918] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/servel/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
-[25Aug2025 19:38:04.090] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
-[25Aug2025 19:38:05.876] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[25Aug2025 19:38:06.206] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
-[25Aug2025 19:38:06.298] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
-[25Aug2025 19:38:06.299] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[25Aug2025 19:38:06.299] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[25Aug2025 19:38:06.299] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[25Aug2025 19:38:06.452] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[25Aug2025 19:38:06.479] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[25Aug2025 19:38:06.547] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[25Aug2025 19:38:06.548] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[25Aug2025 19:38:06.548] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[25Aug2025 19:38:06.548] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[25Aug2025 19:38:06.613] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
-[25Aug2025 19:38:06.628] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading server info!
-[25Aug2025 19:38:06.693] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading player configs...
-[25Aug2025 19:38:06.732] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded player configs!
-[25Aug2025 19:38:06.733] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading parties...
-[25Aug2025 19:38:06.734] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded parties!
-[25Aug2025 19:38:06.735] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Fixing party inconsistencies...
-[25Aug2025 19:38:06.797] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: default
-[25Aug2025 19:38:06.798] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
-[25Aug2025 19:38:06.799] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[25Aug2025 19:38:07.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[25Aug2025 19:38:07.413] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
-[25Aug2025 19:38:08.241] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2025 19:38:08.275] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2025 19:38:08.320] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2025 19:38:08.641] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[25Aug2025 19:38:09.188] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[25Aug2025 19:38:09.316] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2200 ms
-[25Aug2025 19:38:09.317] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.758s)! For help, type "help"
-[25Aug2025 19:38:09.359] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[25Aug2025 19:38:09.364] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
-[25Aug2025 19:38:09.368] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 4ms
-[25Aug2025 19:38:09.368] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "ftb_ranks" isn't registered!
-[25Aug2025 19:38:09.368] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: permission_api
-[25Aug2025 19:38:09.369] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured primary party system "ftb_teams" isn't registered!
-[25Aug2025 19:38:09.369] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
-[25Aug2025 19:38:09.370] [Server thread/WARN] [ModernFix/]: Dedicated server took 18.334 seconds to load
-[25Aug2025 19:44:32.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /advancement (grant|revoke)
-[25Aug2025 19:44:32.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /attribute <target> <attribute> (get|base|modifier)
-[25Aug2025 19:44:32.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in)
-[25Aug2025 19:44:32.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bossbar (add|remove|list|set|get)
-[25Aug2025 19:44:32.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clear [<targets>]
-[25Aug2025 19:44:32.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /clone <begin> <end> <destination> [replace|masked|filtered]
-[25Aug2025 19:44:32.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /data (merge|get|remove|modify)
-[25Aug2025 19:44:32.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /datapack (enable|disable|list)
-[25Aug2025 19:44:32.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /debug (start|stop|function)
-[25Aug2025 19:44:32.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /defaultgamemode (survival|creative|adventure|spectator)
-[25Aug2025 19:44:32.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /difficulty [peaceful|easy|normal|hard]
-[25Aug2025 19:44:32.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /effect (clear|give)
-[25Aug2025 19:44:32.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /me <action>
-[25Aug2025 19:44:32.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /enchant <targets> <enchantment> [<level>]
-[25Aug2025 19:44:32.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /experience (add|set|query)
-[25Aug2025 19:44:32.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /xp -> experience
-[25Aug2025 19:44:32.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[25Aug2025 19:44:32.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forceload (add|remove|query)
-[25Aug2025 19:44:32.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /function <name>
-[25Aug2025 19:44:32.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamemode (survival|creative|adventure|spectator)
-[25Aug2025 19:44:32.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /gamerule (announceAdvancements|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWardenSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
-[25Aug2025 19:44:32.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /give <targets> <item> [<count>]
-[25Aug2025 19:44:32.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /help [<command>]
-[25Aug2025 19:44:32.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /item (replace|modify)
-[25Aug2025 19:44:32.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kick <targets> [<reason>]
-[25Aug2025 19:44:32.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /kill [<targets>]
-[25Aug2025 19:44:32.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /list [uuids]
-[25Aug2025 19:44:32.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /locate (structure|biome|poi)
-[25Aug2025 19:44:32.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /loot (replace|insert|give|spawn)
-[25Aug2025 19:44:32.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /msg <targets> <message>
-[25Aug2025 19:44:32.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tell -> msg
-[25Aug2025 19:44:32.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /w -> msg
-[25Aug2025 19:44:32.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /particle <name> [<pos>]
-[25Aug2025 19:44:32.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /place (feature|jigsaw|structure|template)
-[25Aug2025 19:44:32.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
-[25Aug2025 19:44:32.494] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /reload
-[25Aug2025 19:44:32.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /recipe (give|take)
-[25Aug2025 19:44:32.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /say <message>
-[25Aug2025 19:44:32.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /schedule (function|clear)
-[25Aug2025 19:44:32.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scoreboard (objectives|players)
-[25Aug2025 19:44:32.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /seed
-[25Aug2025 19:44:32.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setblock <pos> <block> [destroy|keep|replace]
-[25Aug2025 19:44:32.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spawnpoint [<targets>]
-[25Aug2025 19:44:32.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setworldspawn [<pos>]
-[25Aug2025 19:44:32.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spectate [<target>]
-[25Aug2025 19:44:32.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[25Aug2025 19:44:32.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[25Aug2025 19:44:32.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /summon <entity> [<pos>]
-[25Aug2025 19:44:32.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tag <targets> (add|remove|list)
-[25Aug2025 19:44:32.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /team (list|add|remove|empty|join|leave|modify)
-[25Aug2025 19:44:32.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teammsg <message>
-[25Aug2025 19:44:32.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tm -> teammsg
-[25Aug2025 19:44:32.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /teleport (<location>|<destination>|<targets>)
-[25Aug2025 19:44:32.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tp -> teleport
-[25Aug2025 19:44:32.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /tellraw <targets> <message>
-[25Aug2025 19:44:32.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /time (set|add|query)
-[25Aug2025 19:44:32.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[25Aug2025 19:44:32.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /trigger <objective> [add|set]
-[25Aug2025 19:44:32.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /weather (clear|rain|thunder)
-[25Aug2025 19:44:32.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /worldborder (add|set|center|damage|get|warning)
-[25Aug2025 19:44:32.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /jfr (start|stop)
-[25Aug2025 19:44:32.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban-ip <target> [<reason>]
-[25Aug2025 19:44:32.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /banlist [ips|players]
-[25Aug2025 19:44:32.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /ban <targets> [<reason>]
-[25Aug2025 19:44:32.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /deop <targets>
-[25Aug2025 19:44:32.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /op <targets>
-[25Aug2025 19:44:32.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon <targets>
-[25Aug2025 19:44:32.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /pardon-ip <target>
-[25Aug2025 19:44:32.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /perf (start|stop)
-[25Aug2025 19:44:32.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-all [flush]
-[25Aug2025 19:44:32.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-off
-[25Aug2025 19:44:32.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /save-on
-[25Aug2025 19:44:32.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /setidletimeout <minutes>
-[25Aug2025 19:44:32.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /stop
-[25Aug2025 19:44:32.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /whitelist (on|off|list|add|remove|reload)
-[25Aug2025 19:44:32.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /mokey (fast_forward|get_target|get_timer)
-[25Aug2025 19:44:32.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scary_skinwalker (fast_forward|get_target|get_timer)
-[25Aug2025 19:44:32.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /steve_dweller (fast_forward|get_target|get_timer)
-[25Aug2025 19:44:32.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /cartoon_dweller (fast_forward|get_target|get_timer)
-[25Aug2025 19:44:32.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /modernfix upgradeStructures
-[25Aug2025 19:44:32.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /mfsrc
-[25Aug2025 19:44:32.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /forge (tps|track|entity|generate|dimensions|mods|tags)
-[25Aug2025 19:44:32.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /config showfile <mod> <type>
-[25Aug2025 19:44:32.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /start_has
-[25Aug2025 19:44:32.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scream2
-[25Aug2025 19:44:32.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /scream
-[25Aug2025 19:44:32.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /BIB_ForceGame
-[25Aug2025 19:44:32.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /bibdevmode
-[25Aug2025 19:44:32.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /BIB_config
-[25Aug2025 19:44:32.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /backstab
-[25Aug2025 19:44:32.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /openpac-parties about [<profile>]
-[25Aug2025 19:44:32.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /openpac-claims (claim|unclaim|forceload|unforceload|non-ally-mode|about|server-claim-mode|sub-claim|server|admin-mode)
-[25Aug2025 19:44:32.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: /openpac (player-config|server-claims-config|expired-claims-config|wilderness-config)
-[25Aug2025 19:46:53.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[25Aug2025 19:46:53.673] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ip<--[HERE]
-[25Aug2025 19:46:55.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[25Aug2025 19:46:55.974] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ip<--[HERE]
-[25Aug2025 19:49:47.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[25Aug2025 19:49:47.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[25Aug2025 19:49:47.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[25Aug2025 19:49:47.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[25Aug2025 19:49:48.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[25Aug2025 19:49:48.343] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[25Aug2025 19:49:48.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[25Aug2025 19:49:48.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[25Aug2025 19:49:48.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[25Aug2025 19:49:48.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[25Aug2025 19:49:48.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[25Aug2025 19:49:48.365] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopping IO worker...
-[25Aug2025 19:49:48.371] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopped IO worker!
+[25Aug2025 19:50:14.568] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[25Aug2025 19:50:14.572] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.16 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[25Aug2025 19:50:14.816] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servel/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[25Aug2025 19:50:15.130] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.2/fmlcore-1.19.2-43.4.2.jar is missing mods.toml file
+[25Aug2025 19:50:15.131] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.2/javafmllanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[25Aug2025 19:50:15.133] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.2/lowcodelanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[25Aug2025 19:50:15.134] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servel/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.2/mclanguage-1.19.2-43.4.2.jar is missing mods.toml file
+[25Aug2025 19:50:15.312] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[25Aug2025 19:50:17.271] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
+[25Aug2025 19:50:17.279] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[25Aug2025 19:50:17.366] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[25Aug2025 19:50:17.630] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 0 override(s) found
+[25Aug2025 19:50:17.631] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[25Aug2025 19:50:17.648] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[25Aug2025 19:50:18.357] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[25Aug2025 19:50:18.822] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (6.338 s after launch)
+[25Aug2025 19:50:18.922] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Aug2025 19:50:18.923] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[25Aug2025 19:50:20.085] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1260 milliseconds
+[25Aug2025 19:50:22.697] [modloading-worker-0/INFO] [dynamiclightsreforged/]: [LambDynLights] Initializing Dynamic Lights Reforged...
+[25Aug2025 19:50:22.752] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.2, for MC 1.19.2 with MCP 20220805.130853
+[25Aug2025 19:50:22.753] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.2 Initialized
+[25Aug2025 19:50:23.314] [modloading-worker-0/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
+[25Aug2025 19:50:23.489] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[25Aug2025 19:50:23.521] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[25Aug2025 19:50:23.523] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[25Aug2025 19:50:23.549] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[25Aug2025 19:50:23.550] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[25Aug2025 19:50:23.685] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[25Aug2025 19:50:23.707] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[25Aug2025 19:50:23.714] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[25Aug2025 19:50:23.866] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[25Aug2025 19:50:24.031] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[25Aug2025 19:50:24.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.4.2 Target: 43.5.0
+[25Aug2025 19:50:24.383] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/servel/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
+[25Aug2025 19:50:24.384] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/servel/servidor_minecraft/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
+[25Aug2025 19:50:26.323] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[25Aug2025 19:50:26.720] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[25Aug2025 19:50:26.831] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[25Aug2025 19:50:26.832] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[25Aug2025 19:50:26.832] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[25Aug2025 19:50:26.833] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[25Aug2025 19:50:26.955] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[25Aug2025 19:50:26.981] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[25Aug2025 19:50:27.124] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[25Aug2025 19:50:27.125] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[25Aug2025 19:50:27.125] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[25Aug2025 19:50:27.127] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[25Aug2025 19:50:27.278] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
+[25Aug2025 19:50:27.313] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading server info!
+[25Aug2025 19:50:27.383] [Thread-0/INFO] [ModernFix/]: Please use /mfsrc to reload any changed mod config files
+[25Aug2025 19:50:27.397] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading player configs...
+[25Aug2025 19:50:27.439] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded player configs!
+[25Aug2025 19:50:27.440] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading parties...
+[25Aug2025 19:50:27.441] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded parties!
+[25Aug2025 19:50:27.442] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Fixing party inconsistencies...
+[25Aug2025 19:50:27.509] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: default
+[25Aug2025 19:50:27.510] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
+[25Aug2025 19:50:27.511] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[25Aug2025 19:50:27.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Aug2025 19:50:29.413] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2025 19:50:29.414] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2025 19:50:29.418] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2025 19:50:29.418] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[25Aug2025 19:50:29.870] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 25%
+[25Aug2025 19:50:30.056] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2220 ms
+[25Aug2025 19:50:30.057] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.912s)! For help, type "help"
+[25Aug2025 19:50:30.070] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[25Aug2025 19:50:30.073] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
+[25Aug2025 19:50:30.076] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 3ms
+[25Aug2025 19:50:30.076] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "ftb_ranks" isn't registered!
+[25Aug2025 19:50:30.077] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: permission_api
+[25Aug2025 19:50:30.077] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured primary party system "ftb_teams" isn't registered!
+[25Aug2025 19:50:30.077] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
+[25Aug2025 19:50:30.079] [Server thread/WARN] [ModernFix/]: Dedicated server took 17.596 seconds to load
+[25Aug2025 19:53:26.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[25Aug2025 19:53:26.931] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Aug2025 19:53:26.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Aug2025 19:53:26.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Aug2025 19:53:27.423] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[25Aug2025 19:53:27.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[25Aug2025 19:53:27.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[25Aug2025 19:53:27.517] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[25Aug2025 19:53:27.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Aug2025 19:53:27.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Aug2025 19:53:27.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[25Aug2025 19:53:27.528] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopping IO worker...
+[25Aug2025 19:53:27.529] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopped IO worker!
