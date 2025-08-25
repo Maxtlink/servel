@@ -1495,3 +1495,15 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [25Aug2025 20:40:17.607] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EduKzYT lost connection: Disconnected
 [25Aug2025 20:40:17.608] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EduKzYT left the game
 [25Aug2025 20:40:17.608] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for b91aa904-269e-3448-92ec-77421b0b7fe5
+[25Aug2025 20:42:06.248] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving server info!
+[25Aug2025 20:42:06.298] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving parties...
+[25Aug2025 20:42:09.354] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Aug2025 20:42:09.360] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Aug2025 20:45:26.400] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving claims!
+[25Aug2025 20:47:09.353] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Aug2025 20:47:09.356] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[25Aug2025 20:48:46.348] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving player configs...
+[25Aug2025 20:52:06.298] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving server info!
+[25Aug2025 20:52:06.349] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving parties...
+[25Aug2025 20:52:09.354] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[25Aug2025 20:52:09.358] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
