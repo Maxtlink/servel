@@ -1185,3 +1185,11 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [31Aug2025 23:34:43.304] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [31Aug2025 23:34:43.311] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [31Aug2025 23:36:20.434] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving player configs...
+[31Aug2025 23:39:40.384] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving parties...
+[31Aug2025 23:39:40.384] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving server info!
+[31Aug2025 23:39:43.296] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[31Aug2025 23:39:43.302] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[31Aug2025 23:43:00.534] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving claims!
+[31Aug2025 23:44:43.293] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[31Aug2025 23:44:43.299] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[31Aug2025 23:46:20.435] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving player configs...
