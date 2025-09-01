@@ -144,3 +144,6 @@
 [01Sep2025 00:59:58.941] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 740f1231-3574-3da3-b2f1-ac7299218352
 [01Sep2025 01:00:21.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
 [01Sep2025 01:00:21.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: status<--[HERE]
+[01Sep2025 01:01:12.741] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: EduKzYT lost connection: Disconnected
+[01Sep2025 01:01:12.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EduKzYT left the game
+[01Sep2025 01:01:12.742] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for b91aa904-269e-3448-92ec-77421b0b7fe5
