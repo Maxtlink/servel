@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2025-09-01 00:55:57 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/black_wool": {
     "criteria": {
       "has_white_wool": "2025-08-23 22:06:21 +0000"
@@ -433,9 +439,9 @@
     },
     "done": false
   },
-  "minecraft:adventure/sleep_in_bed": {
+  "minecraft:recipes/misc/charcoal": {
     "criteria": {
-      "slept_in_bed": "2025-09-01 00:18:38 +0000"
+      "has_log": "2025-09-01 00:17:27 +0000"
     },
     "done": true
   },
@@ -445,9 +451,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/charcoal": {
+  "minecraft:adventure/sleep_in_bed": {
     "criteria": {
-      "has_log": "2025-09-01 00:17:27 +0000"
+      "slept_in_bed": "2025-09-01 00:18:38 +0000"
     },
     "done": true
   },
@@ -553,15 +559,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
-    "criteria": {
-      "has_bed": "2025-09-01 00:18:16 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2025-09-01 00:17:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2025-09-01 00:18:16 +0000"
     },
     "done": true
   },
@@ -719,15 +725,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_chicken": {
-    "criteria": {
-      "has_chicken": "2025-09-01 00:31:12 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/red_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2025-09-01 00:18:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-09-01 00:31:12 +0000"
     },
     "done": true
   },
