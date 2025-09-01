@@ -1640,3 +1640,52 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [01Sep2025 00:39:40.584] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving server info!
 [01Sep2025 00:39:43.301] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [01Sep2025 00:39:43.305] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Sep2025 00:40:32.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> parece uma barata correndo
+[01Sep2025 00:41:29.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> qm é ele
+[01Sep2025 00:41:35.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> esse bixinho
+[01Sep2025 00:41:36.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EduKzYT has made the advancement [Stone Age]
+[01Sep2025 00:41:42.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> na minha frente
+[01Sep2025 00:42:03.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> pera
+[01Sep2025 00:42:05.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> ja volto
+[01Sep2025 00:42:08.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> rapidinho
+[01Sep2025 00:43:00.784] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving claims!
+[01Sep2025 00:43:40.734] [Server thread/DEBUG] [de.cadentem.scary_skinwalker.ScarySkinwalker/]: Scary Skinwalker could not pass the spawn checks, target: [ServerPlayer['EduKzYT'/119, l='ServerLevel[world]', x=-128.11, y=68.50, z=-40.45]]
+[01Sep2025 00:43:41.034] [Server thread/DEBUG] [de.cadentem.scary_skinwalker.ScarySkinwalker/]: Scary Skinwalker could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.58, y=73.00, z=-42.07]]
+[01Sep2025 00:43:56.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: EduKzYT was slain by Skinwalker
+[01Sep2025 00:43:58.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Guilt> Why did you leave me?
+[01Sep2025 00:44:43.302] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Sep2025 00:44:43.306] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Sep2025 00:45:08.336] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:08.385] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['EduKzYT'/119, l='ServerLevel[world]', x=-137.85, y=73.00, z=-42.76]]
+[01Sep2025 00:45:08.685] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['EduKzYT'/119, l='ServerLevel[world]', x=-138.35, y=73.00, z=-43.43]]
+[01Sep2025 00:45:08.835] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:09.734] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:10.734] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['EduKzYT'/119, l='ServerLevel[world]', x=-137.81, y=73.00, z=-44.43]]
+[01Sep2025 00:45:11.085] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['EduKzYT'/119, l='ServerLevel[world]', x=-137.81, y=73.00, z=-44.43]]
+[01Sep2025 00:45:11.285] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:12.434] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:15.836] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:20.234] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['EduKzYT'/119, l='ServerLevel[world]', x=-137.88, y=73.00, z=-44.38]]
+[01Sep2025 00:45:22.635] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:26.585] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['EduKzYT'/119, l='ServerLevel[world]', x=-129.91, y=70.54, z=-41.34]]
+[01Sep2025 00:45:31.484] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:33.084] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['EduKzYT'/119, l='ServerLevel[world]', x=-136.97, y=68.00, z=-44.30]]
+[01Sep2025 00:45:35.936] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:35.985] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:41.384] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:41.785] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:42.985] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['EduKzYT'/119, l='ServerLevel[world]', x=-137.40, y=68.00, z=-42.99]]
+[01Sep2025 00:45:47.185] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:47.485] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['EduKzYT'/119, l='ServerLevel[world]', x=-137.29, y=68.00, z=-44.16]]
+[01Sep2025 00:45:50.984] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['EduKzYT'/119, l='ServerLevel[world]', x=-136.54, y=68.00, z=-44.70]]
+[01Sep2025 00:45:55.836] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['MidNight1205'/1147, l='ServerLevel[world]', x=-135.02, y=73.00, z=-43.91]]
+[01Sep2025 00:45:57.285] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['EduKzYT'/119, l='ServerLevel[world]', x=-135.30, y=66.18, z=-44.70]]
+[01Sep2025 00:45:58.185] [Server thread/DEBUG] [de.cadentem.mokey.Mokey/]: Mokey could not pass the spawn checks, target: [ServerPlayer['EduKzYT'/119, l='ServerLevel[world]', x=-135.30, y=65.00, z=-44.70]]
+[01Sep2025 00:46:20.683] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving player configs...
+[01Sep2025 00:47:29.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> voltei
+[01Sep2025 00:47:36.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> pegar janta
+[01Sep2025 00:47:54.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MidNight1205> nn vi q tinha caido
+[01Sep2025 00:49:40.634] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving parties...
+[01Sep2025 00:49:40.634] [Server thread/DEBUG] [xaero.pac.OpenPartiesAndClaims/]: Saving server info!
+[01Sep2025 00:49:43.303] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Sep2025 00:49:43.306] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
