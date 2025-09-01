@@ -29,21 +29,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2025-09-01 00:10:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2025-08-23 22:20:14 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/combat/golden_chestplate": {
-    "criteria": {
-      "has_gold_ingot": "2025-08-25 20:36:03 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/wheat": {
     "criteria": {
       "has_hay_block": "2025-08-25 20:35:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2025-08-25 20:36:03 +0000"
     },
     "done": true
   },
@@ -257,6 +263,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2025-09-01 00:10:39 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/jungle_sign": {
     "criteria": {
       "has_planks": "2025-08-25 20:25:01 +0000"
@@ -268,6 +280,12 @@
       "has_gold_ingot": "2025-08-25 20:36:03 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2025-09-01 00:13:04 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/redstone/jungle_trapdoor": {
     "criteria": {
@@ -404,6 +422,12 @@
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2025-08-23 22:05:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2025-09-01 00:10:39 +0000"
     },
     "done": true
   },
